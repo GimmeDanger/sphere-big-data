@@ -237,6 +237,8 @@ m.drawmapboundary(linewidth=0.2, fill_color='#000040')
 m.drawparallels(np.arange(-90,90,30),labels=[0,0,0,0], color='white', linewidth=0.5)
 m.drawmeridians(np.arange(0,360,30),labels=[0,0,0,0], color='white', linewidth=0.5)
 
+#http://matplotlib.org/basemap/users/examples.html
+
 def plot_points_on_map(df_full):
     """
     Plot points on the map.
